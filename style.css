@@ -25,6 +25,7 @@ tr:first-child>td:nth-child(2){
     color: red;
 }
 
+/* itt szintúgy */
 tr:first-child>td:nth-child(3){
     font-weight: bold;
 }
