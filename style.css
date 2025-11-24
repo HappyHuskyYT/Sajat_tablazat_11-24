@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+table,tr,td{
+    border: 5px white double;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+td{
+    text-align: center;
+}
+
+/* hivatkozás 1. példa */
+#piros{
+    color: red;
+}
+
+/* hivatkozás 2. példa */
+tr:first-child>td:nth-child(2){
+    color: red;
+}
+
+tr:first-child>td:nth-child(3){
+    font-weight: bold;
+}
+
+#zold{
+    background-color: green;
+}
+
+tr:last-child>td:nth-child(2){
+    background-color: green;
+}
